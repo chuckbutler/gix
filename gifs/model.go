@@ -6,7 +6,7 @@ import "gopkg.in/mgo.v2/bson"
 
 type Gif struct {
 	ID   bson.ObjectId `bson:"_id"`
-	Url  string        `json:"Url"`
+	Url  string        `json:"url"`
 	Tags string        `json:"tags"`
 }
 
